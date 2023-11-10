@@ -2,8 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import Links from '@/components/Links'
-import Headline from '@/components/Headline'
+import { Links } from '@/components/Links'
+import { Headline } from '@/components/Headline'
 import { Footer } from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
